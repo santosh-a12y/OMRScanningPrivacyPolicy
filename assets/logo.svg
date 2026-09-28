@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Background Squircle -->
+  <rect x="32" y="32" width="448" height="448" rx="100" fill="url(#bgGrad)" />
+  <rect x="32" y="32" width="448" height="448" rx="100" fill="none" stroke="#ffffff" stroke-opacity="0.2" stroke-width="4" />
+
+  <!-- Sheet Card -->
+  <g filter="url(#shadow)">
+    <rect x="136" y="106" width="240" height="300" rx="20" fill="#ffffff" />
+    <rect x="136" y="106" width="240" height="300" rx="20" fill="none" stroke="#e2e8f0" stroke-width="2" />
+  </g>
+
+  <!-- Top Title Bar on Sheet -->
+  <rect x="168" y="142" width="130" height="12" rx="6" fill="#94a3b8" />
+
+  <!-- OMR Grid Rows -->
+  <!-- Row 1 -->
+  <circle cx="180" cy="190" r="11" fill="#2563eb" />
+  <circle cx="218" cy="190" r="10" fill="none" stroke="#cbd5e1" stroke-width="2.5" />
+  <circle cx="256" cy="190" r="10" fill="none" stroke="#cbd5e1" stroke-width="2.5" />
+  <circle cx="294" cy="190" r="10" fill="none" stroke="#cbd5e1" stroke-width="2.5" />
+
+  <!-- Row 2 -->
+  <circle cx="180" cy="232" r="10" fill="none" stroke="#cbd5e1" stroke-width="2.5" />
+  <circle cx="218" cy="232" r="11" fill="#2563eb" />
+  <circle cx="256" cy="232" r="10" fill="none" stroke="#cbd5e1" stroke-width="2.5" />
+  <circle cx="294" cy="232" r="10" fill="none" stroke="#cbd5e1" stroke-width="2.5" />
+
+  <!-- Row 3 -->
+  <circle cx="180" cy="274" r="10" fill="none" stroke="#cbd5e1" stroke-width="2.5" />
+  <circle cx="218" cy="274" r="10" fill="none" stroke="#cbd5e1" stroke-width="2.5" />
+  <circle cx="256" cy="274" r="11" fill="#2563eb" />
+  <circle cx="294" cy="274" r="10" fill="none" stroke="#cbd5e1" stroke-width="2.5" />
+
+  <!-- Row 4 -->
+  <circle cx="180" cy="316" r="11" fill="#2563eb" />
+  <circle cx="218" cy="316" r="10" fill="none" stroke="#cbd5e1" stroke-width="2.5" />
+  <circle cx="256" cy="316" r="10" fill="none" stroke="#cbd5e1" stroke-width="2.5" />
+  <circle cx="294" cy="316" r="10" fill="none" stroke="#cbd5e1" stroke-width="2.5" />
+
+  <!-- Shield Badge (Privacy & Security Verified) -->
+  <g transform="translate(320, 310)">
+    <path d="M40 0 C65 0 80 15 80 40 C80 75 40 100 40 100 C40 100 0 75 0 40 C0 15 15 0 40 0 Z" fill="#10b981" />
+    <path d="M24 42 L35 53 L56 30" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

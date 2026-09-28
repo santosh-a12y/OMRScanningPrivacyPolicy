@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (copyEmailBtn && copyBtnText) {
     copyEmailBtn.addEventListener('click', async () => {
       const emailLink = document.getElementById('contactEmailLink');
-      const emailText = emailLink ? emailLink.textContent.trim().replace(/^\[|\]$/g, '') : 'contact@example.com';
+      const emailText = emailLink ? emailLink.textContent.trim() : 'ysantosh00179@gmail.com';
 
       try {
         if (navigator.clipboard && navigator.clipboard.writeText) {

@@ -40,19 +40,16 @@ OMRCheckPrivacyPolicy/
 
 ---
 
-## ✏️ Customization (Find & Replace)
+## ✏️ Application Information
 
-Before publishing, replace the bracketed placeholders with your actual application and legal details:
+The website is pre-configured with the following application and legal details:
 
-| Placeholder | Example Value | Description |
+| Field | Configured Value | Description |
 | :--- | :--- | :--- |
-| `[App Name]` | `OMR Check` | Name of your mobile application |
-| `[Company Name]` | `Acme Technologies LLC` | Legal entity or developer name |
-| `[contact@example.com]` | `privacy@omrcheck.app` | Official privacy / support contact email |
-| `[Month DD, YYYY]` | `October 01, 2026` | Effective date of this policy |
-| `[Street Address...]` | `123 Tech Park, San Jose, CA, USA` | Physical or registered business address |
-
-> **Tip:** In VS Code or your preferred editor, use global search and replace (`Ctrl+Shift+H` or `Cmd+Shift+H`) to update all occurrences across `index.html`, `LICENSE`, and `README.md`.
+| **Application Name** | `OMR Check` | Name of the mobile application |
+| **Developer** | `Independent Developer` | Developer classification |
+| **Contact Email** | `ysantosh00179@gmail.com` | Official support & privacy contact email |
+| **Effective Date** | `September 28, 2026` | Effective date of this policy |
 
 ---
 
